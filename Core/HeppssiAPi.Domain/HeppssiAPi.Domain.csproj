@@ -7,12 +7,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="Entites\Role.cs" />
-    <Compile Remove="Entites\User.cs" />
+    <Compile Remove="Entities\Role.cs" />
+    <Compile Remove="Entities\User.cs" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Entites\" />
+    <Folder Include="Entities\" />
   </ItemGroup>
 
 </Project>
