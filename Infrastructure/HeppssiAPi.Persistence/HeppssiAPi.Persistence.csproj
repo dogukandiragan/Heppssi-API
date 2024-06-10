@@ -6,4 +6,20 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Configuration\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Bogus" Version="35.5.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.20" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Core\HeppssiAPi.Application\HeppssiAPi.Application.csproj" />
+    <ProjectReference Include="..\..\Core\HeppssiAPi.Domain\HeppssiAPi.Domain.csproj" />
+    <ProjectReference Include="..\..\Presentation\HeppssiAPi.Api\HeppssiAPi.Api.csproj" />
+    <ProjectReference Include="..\HeppssiAPi.Infrastructure\HeppssiAPi.Infrastructure.csproj" />
+  </ItemGroup>
+
 </Project>
