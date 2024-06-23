@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using HeppssiAPi.Domain.Entities;
 
 
-namespace HeppssiApi.Persistence.Configurations
+namespace HeppssiAPi.Persistence.Configurations
 {
     public class BrandConfiguration : IEntityTypeConfiguration<Brand>
     {
