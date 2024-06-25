@@ -18,6 +18,8 @@
   <ItemGroup>
     <ProjectReference Include="..\..\Core\HeppssiAPi.Application\HeppssiAPi.Application.csproj" />
     <ProjectReference Include="..\..\Core\HeppssiAPi.Mapper\HeppssiAPi.Mapper.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\HeppssiAPi.Infrastructure\HeppssiAPi.Infrastructure.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\HeppssiAPi.Persistence\HeppssiAPi.Persistence.csproj" />
   </ItemGroup>
 
   <ItemGroup>

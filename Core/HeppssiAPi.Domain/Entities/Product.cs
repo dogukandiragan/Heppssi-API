@@ -26,6 +26,8 @@ namespace HeppssiAPi.Domain.Entities
 
         public Brand Brand { get; set; }
 
-      
+
+        public ICollection<ProductCategory> ProductCategories { get; set; }
+        //public required string ImagePath { get; set; }
     }
 }
